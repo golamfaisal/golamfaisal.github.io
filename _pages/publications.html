@@ -1,36 +1,28 @@
 ---
-layout: archive
+layout: default
 title: "Publications"
 permalink: /publications/
-author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+## Publications
 
-{% include base_path %}
+### Manuscripts Under Review
+- Najmun Nahar Popy; M. Nazmul Hoque; Mohammad Ferdousur Rahman Khan; Golam Mahbub Faisal; Limon Biswas; Mohammad Habibur Rahman; Marzia Rahman; Md. Saiduzzaman; Md. Tanvir Rahman; Md. Bahanur Rahman. **Genomic Insights into Two ST19 Multidrug-Resistant Salmonella enterica Serovars Isolated from Chickens in Bangladesh.**
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+---
 
+### Peer-Reviewed Publications
+1. **Hoque, M. N.**, Mannan, A. B. A., Hossian, A., Faisal, G. M., Hossain, M. A., & Sultana, M. (2024). Arsenotrophic Achromobacter aegrifaciens Strains Isolated from Arsenic Contaminated Tubewell Water and Soil Sources Shared Similar Genomic Potentials. *BMC Microbiology*. [DOI: 10.1186/s12866-024-03676-9](https://doi.org/10.1186/s12866-024-03676-9)
 
+2. **Ballah, F. M.**, Hoque, M. N., Islam, M. S., Firdous, Z., Faisal, G. M., Rahman, A. M. M. T., Khatun, M. M., Rahman, M., Hassan, J., & Rahman, M. T. (2024). Genomic Insights of a Methicillin-Resistant Biofilm-Producing Staphylococcus aureus Strain Isolated from Food Handlers. *BioMed Research International*. [https://doi.org/10.1155/2024/5516117](https://doi.org/10.1155/2024/5516117)
 
+3. **Hoque, M. N.**, Hossain, A., Faisal, G. M., Bukharid, M. Z., Hossain, M. A., & Sultana, M. (2024). Draft Genome Sequence of An Arsenotrophic Achromobacter aegrifaciens Strain Isolated from Soil in Bangladesh. *Microbiology Resource Announcements*. [https://doi.org/10.1128/mra.00137-24](https://doi.org/10.1128/mra.00137-24)
+
+---
+
+### Review Articles
+1. **Hoque, M. N.**, Faisal, G. M., Chowdhury, F. R., Haque, A., Islam, T. (2022). The urgency of wider adoption of one health approach for the prevention of a future pandemic. *Int. J. One Health*, 8(1): 20-33. [https://doi.org/10.14202/IJOH.2022.20-33](https://doi.org/10.14202/IJOH.2022.20-33)
+
+2. **Akter, S.**, Moni, A., Faisal, G. M., Uddin, M. R., Jahan, N., Hannan, M. A., Rahman, A., Uddin, M. J. (2022). Renoprotective Effects of Mangiferin: Pharmacological Advances and Future Perspectives. *International Journal of Environmental Research and Public Health*, 19(3):1864. [https://doi.org/10.3390/ijerph19031864](https://doi.org/10.3390/ijerph19031864)
+
+3. **Faisal, G. M.**, Hoque, M. N., Rahman, M. S., Islam, T. (2021). Challenges in medical waste management amid COVID-19 pandemic in a megacity Dhaka. *Journal of Advanced Biotechnology and Experimental Therapeutics*. [https://doi.org/10.5455/jabet.2021.d111](https://doi.org/10.5455/jabet.2021.d111)
